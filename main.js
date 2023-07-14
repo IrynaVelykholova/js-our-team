@@ -33,7 +33,7 @@ const membriDelTeam = [
         nome: "Barbara",
         cognome: "Ramos",
         ruolo: "Graphic Designer",
-        profilePic: "107-1078168_disguised-toast-on-twitter-disguised-toast-twitch-emote.png",
+        fotoProfilo: "107-1078168_disguised-toast-on-twitter-disguised-toast-twitch-emote.png",
     },
 ];
 
