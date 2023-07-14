@@ -33,6 +33,18 @@ const membriDelTeam = [
         nome: "Barbara",
         cognome: "Ramos",
         ruolo: "Graphic Designer",
-        profilePic: "st,small,507x507-pad,600x600,f8f8f8.jpg",
+        profilePic: "107-1078168_disguised-toast-on-twitter-disguised-toast-twitch-emote.png",
     },
 ];
+
+const listaMembri = document.querySelector(".lista-membri");
+
+
+for (let i = 0; i < membriDelTeam.length; i++) {
+    const singoloMembro = membriDelTeam[i];
+    console.log(singoloMembro);
+
+    listaMembri.innerHTML += `<div class="list-group-item">${singoloMembro.nome} ${singoloMembro.cognome} ${singoloMembro.ruolo} ${singoloMembro.fotoProfilo}</div>`;
+
+}
+
